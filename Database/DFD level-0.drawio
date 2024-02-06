@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-05T00:10:15.060Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="3aXND-xYkzpKSSPvixY5" version="23.1.1" type="device">
+<mxfile host="app.diagrams.net" modified="2024-02-06T19:53:36.307Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="j5UMZKdVoT9wMUDEGfER" version="23.1.1" type="device">
   <diagram name="Page-1" id="XpmjRTrhNQovT9HdLlHg">
-    <mxGraphModel dx="5670" dy="2340" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="0" dy="-651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,10 +25,10 @@
         <mxCell id="SvNAd-2GLeYypf7AGMXf-11" value="4.0" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1360" y="1570" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-12" value="record presence" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="SvNAd-2GLeYypf7AGMXf-11" vertex="1">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-12" value="record Attendance" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="SvNAd-2GLeYypf7AGMXf-11" vertex="1">
           <mxGeometry y="50" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-16" value="D3&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Presence file" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" parent="1" vertex="1">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-16" value="D3&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Attendance&amp;nbsp;File" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" parent="1" vertex="1">
           <mxGeometry x="1900" y="1630" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SvNAd-2GLeYypf7AGMXf-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.014;exitY=0.131;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.015;entryY=0.153;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="SvNAd-2GLeYypf7AGMXf-4" target="SvNAd-2GLeYypf7AGMXf-2" edge="1">
@@ -48,7 +48,7 @@
             <mxPoint x="1340" y="1380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-21" value="Error" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-20" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-21" value="Error login" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-20" vertex="1" connectable="0">
           <mxGeometry x="0.0016" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -59,7 +59,7 @@
             <mxPoint x="1800" y="1270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-23" value="check student data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-22" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-23" value="student data checking" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-22" vertex="1" connectable="0">
           <mxGeometry x="0.0221" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -70,9 +70,9 @@
             <mxPoint x="1540" y="1300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-25" value="Result" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-24" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-25" value="Result of checking" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-24" vertex="1" connectable="0">
           <mxGeometry x="0.5748" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="49" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SvNAd-2GLeYypf7AGMXf-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" target="SvNAd-2GLeYypf7AGMXf-1" edge="1">
@@ -81,7 +81,7 @@
             <mxPoint x="1580" y="1400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-27" value="store updated data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-26" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-27" value="data storage" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-26" vertex="1" connectable="0">
           <mxGeometry x="-0.1713" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -92,7 +92,7 @@
             <mxPoint x="1190" y="1370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-29" value="edit profile" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-28" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-29" value="profile editing" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-28" vertex="1" connectable="0">
           <mxGeometry x="-0.3462" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -103,7 +103,7 @@
             <mxPoint x="1300" y="1590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-37" value="presence recording&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-36" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-37" value="Attendance recording&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-36" vertex="1" connectable="0">
           <mxGeometry x="0.1586" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -114,7 +114,7 @@
             <mxPoint x="1290" y="1720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-39" value="Number of&lt;br&gt;Presence" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-38" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-39" value="Number of&lt;br&gt;Attendance" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-38" vertex="1" connectable="0">
           <mxGeometry x="0.72" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -125,7 +125,7 @@
             <mxPoint x="1910" y="1760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-41" value="store presence status&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-40" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-41" value="attendance store" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-40" vertex="1" connectable="0">
           <mxGeometry x="-0.1838" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -136,9 +136,9 @@
             <mxPoint x="1870" y="1810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-43" value="number of student presence" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-42" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-43" value="&amp;nbsp;number of student Attendance&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-42" vertex="1" connectable="0">
           <mxGeometry x="-0.3816" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SvNAd-2GLeYypf7AGMXf-44" value="D1&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Professors file" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" parent="1" vertex="1">
@@ -159,7 +159,7 @@
         <mxCell id="SvNAd-2GLeYypf7AGMXf-51" value="4.0" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1430" y="2320" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-52" value="record presence" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="SvNAd-2GLeYypf7AGMXf-51" vertex="1">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-52" value="record Attendance" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="SvNAd-2GLeYypf7AGMXf-51" vertex="1">
           <mxGeometry y="50" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="SvNAd-2GLeYypf7AGMXf-53" value="Professors" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
@@ -185,7 +185,7 @@
             <mxPoint x="1120" y="2050" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-58" value="Error" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-57" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-58" value="Error login" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-57" vertex="1" connectable="0">
           <mxGeometry x="-0.4733" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -196,7 +196,7 @@
             <mxPoint x="1887" y="2020" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-60" value="check student data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-59" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-60" value="Profeesor data checking" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-59" vertex="1" connectable="0">
           <mxGeometry x="0.0221" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -207,7 +207,7 @@
             <mxPoint x="1780" y="2040" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-62" value="Result" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-61" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-62" value="Result of checkking" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-61" vertex="1" connectable="0">
           <mxGeometry x="0.5917" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -229,12 +229,12 @@
             <mxPoint x="1630" y="2150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-66" value="store updated data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-65" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-66" value="data storage" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-65" vertex="1" connectable="0">
           <mxGeometry x="-0.3695" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-68" value="D3&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Presence File" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" parent="1" vertex="1">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-68" value="D3&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Attendance&amp;nbsp;File" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" parent="1" vertex="1">
           <mxGeometry x="1960" y="2370" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SvNAd-2GLeYypf7AGMXf-73" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="SvNAd-2GLeYypf7AGMXf-53" target="SvNAd-2GLeYypf7AGMXf-51" edge="1">
@@ -243,7 +243,7 @@
             <mxPoint x="1260" y="2380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-74" value="record student&amp;nbsp;&lt;br&gt;presence" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-73" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-74" value="student attendance recording" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=35;" parent="SvNAd-2GLeYypf7AGMXf-73" vertex="1" connectable="0">
           <mxGeometry x="-0.0766" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -254,9 +254,9 @@
             <mxPoint x="1950" y="2490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-76" value="store presence status" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-75" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-76" value="attendance store" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-75" vertex="1" connectable="0">
           <mxGeometry x="-0.6446" y="4" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="39" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SvNAd-2GLeYypf7AGMXf-77" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.015;entryY=0.566;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.03;exitY=0.67;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="SvNAd-2GLeYypf7AGMXf-68" target="SvNAd-2GLeYypf7AGMXf-52" edge="1">
@@ -265,7 +265,7 @@
             <mxPoint x="1850" y="2510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-78" value="Number of student presence" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-77" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-78" value="Number of student Attendance" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-77" vertex="1" connectable="0">
           <mxGeometry x="-0.1893" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -276,12 +276,12 @@
             <mxPoint x="1280" y="2470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-80" value="Number of&lt;br&gt;student&amp;nbsp;&lt;br&gt;presence" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-79" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-80" value="Number of&lt;br&gt;student&amp;nbsp;&lt;br&gt;Attendance" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-79" vertex="1" connectable="0">
           <mxGeometry x="0.763" y="-2" relative="1" as="geometry">
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-81" value="D1&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Assistant File" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" parent="1" vertex="1">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-81" value="D1&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Instructor&amp;nbsp;File" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" parent="1" vertex="1">
           <mxGeometry x="1950" y="2690" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SvNAd-2GLeYypf7AGMXf-82" value="1.0" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -299,10 +299,10 @@
         <mxCell id="SvNAd-2GLeYypf7AGMXf-88" value="4.0" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1450" y="2990" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-89" value="record presence" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="SvNAd-2GLeYypf7AGMXf-88" vertex="1">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-89" value="record Attendance&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="SvNAd-2GLeYypf7AGMXf-88" vertex="1">
           <mxGeometry y="50" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-90" value="Assistant" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-90" value="Instructor&amp;nbsp;" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="980" y="2710" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="SvNAd-2GLeYypf7AGMXf-91" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.005;exitY=0.12;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.025;entryY=0.133;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
@@ -325,7 +325,7 @@
             <mxPoint x="1150" y="2740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-94" value="Error" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-93" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-94" value="Error login" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-93" vertex="1" connectable="0">
           <mxGeometry x="-0.4733" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -336,7 +336,7 @@
             <mxPoint x="1917" y="2710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-96" value="check student data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-95" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-96" value="Instructor data checking" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-95" vertex="1" connectable="0">
           <mxGeometry x="0.0221" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -347,9 +347,9 @@
             <mxPoint x="1810" y="2730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-98" value="Result" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-97" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-98" value="Result of checkking" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-97" vertex="1" connectable="0">
           <mxGeometry x="0.5917" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="15" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SvNAd-2GLeYypf7AGMXf-99" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="SvNAd-2GLeYypf7AGMXf-90" target="SvNAd-2GLeYypf7AGMXf-84" edge="1">
@@ -358,7 +358,7 @@
             <mxPoint x="1250" y="2770" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-100" value="edit data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-99" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-100" value="data editing" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-99" vertex="1" connectable="0">
           <mxGeometry x="-0.1466" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -369,12 +369,12 @@
             <mxPoint x="1660" y="2840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-102" value="store updated data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-101" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-102" value="data storage" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-101" vertex="1" connectable="0">
           <mxGeometry x="-0.3695" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-104" value="D3&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Presence File" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" parent="1" vertex="1">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-104" value="D3&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Attendance&amp;nbsp;File" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" parent="1" vertex="1">
           <mxGeometry x="2000" y="3040" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SvNAd-2GLeYypf7AGMXf-109" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="SvNAd-2GLeYypf7AGMXf-90" target="SvNAd-2GLeYypf7AGMXf-88" edge="1">
@@ -383,7 +383,7 @@
             <mxPoint x="1290" y="3070" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-110" value="record student&amp;nbsp;&lt;br&gt;presence" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-109" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-110" value="student attendance recording" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=35;" parent="SvNAd-2GLeYypf7AGMXf-109" vertex="1" connectable="0">
           <mxGeometry x="-0.0766" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -394,9 +394,9 @@
             <mxPoint x="1980" y="3180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-112" value="store presence status" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-111" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-112" value="attendance store" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-111" vertex="1" connectable="0">
           <mxGeometry x="-0.6446" y="4" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="65" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SvNAd-2GLeYypf7AGMXf-113" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.015;entryY=0.566;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.03;exitY=0.674;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="SvNAd-2GLeYypf7AGMXf-104" target="SvNAd-2GLeYypf7AGMXf-89" edge="1">
@@ -405,7 +405,7 @@
             <mxPoint x="1880" y="3200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-114" value="Number of student presence" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-113" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-114" value="Number of student Attendance" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-113" vertex="1" connectable="0">
           <mxGeometry x="-0.1893" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -416,7 +416,7 @@
             <mxPoint x="1310" y="3160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-116" value="Number of&lt;br&gt;student&amp;nbsp;&lt;br&gt;presence" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-115" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-116" value="Number of&lt;br&gt;student&amp;nbsp;&lt;br&gt;Attendance" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-115" vertex="1" connectable="0">
           <mxGeometry x="0.763" y="-2" relative="1" as="geometry">
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
@@ -433,7 +433,7 @@
         <mxCell id="SvNAd-2GLeYypf7AGMXf-120" value="D4&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Professors&amp;nbsp; File" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" parent="1" vertex="1">
           <mxGeometry x="2190" y="4160" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-121" value="D5&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Assistant File" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" parent="1" vertex="1">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-121" value="D5&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Instructor&amp;nbsp;File" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" parent="1" vertex="1">
           <mxGeometry x="2170" y="4550" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SvNAd-2GLeYypf7AGMXf-122" value="D6&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Permissions file" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" parent="1" vertex="1">
@@ -510,7 +510,7 @@
         </mxCell>
         <mxCell id="SvNAd-2GLeYypf7AGMXf-147" value="register" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-146" vertex="1" connectable="0">
           <mxGeometry x="0.0761" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SvNAd-2GLeYypf7AGMXf-148" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="SvNAd-2GLeYypf7AGMXf-117" edge="1">
@@ -519,7 +519,7 @@
             <mxPoint x="1660" y="3430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-149" value="store admin data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-148" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-149" value="admin data storie" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-148" vertex="1" connectable="0">
           <mxGeometry x="-0.1293" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -541,7 +541,7 @@
             <mxPoint x="1450" y="3620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-153" value="Error" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-152" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-153" value="Error login" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-152" vertex="1" connectable="0">
           <mxGeometry x="-0.4464" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -552,7 +552,7 @@
             <mxPoint x="1670" y="3580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-155" value="check admin data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-154" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-155" value="admin data checking" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-154" vertex="1" connectable="0">
           <mxGeometry x="-0.5433" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -563,7 +563,7 @@
             <mxPoint x="1780" y="3590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-157" value="Result" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-156" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-157" value="Result of checking" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-156" vertex="1" connectable="0">
           <mxGeometry x="-0.1593" y="1" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
@@ -574,7 +574,7 @@
             <mxPoint x="1370" y="3615" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-159" value="update profile" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-158" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-159" value="profile editing" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-158" vertex="1" connectable="0">
           <mxGeometry x="0.3979" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -585,7 +585,7 @@
             <mxPoint x="1660" y="3700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-161" value="store updated data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-160" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-161" value="data storage" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-160" vertex="1" connectable="0">
           <mxGeometry x="-0.5357" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -596,7 +596,7 @@
             <mxPoint x="1180" y="3610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-163" value="send news" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-162" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-163" value="news publishing" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-162" vertex="1" connectable="0">
           <mxGeometry x="0.2126" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -607,7 +607,7 @@
             <mxPoint x="1660" y="3870" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-165" value="store news&amp;nbsp; content" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-164" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-165" value="news content store" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-164" vertex="1" connectable="0">
           <mxGeometry x="0.1308" y="1" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
@@ -624,7 +624,7 @@
             <mxPoint x="1960" y="3860" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-168" value="store updated news" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-167" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-168" value="updated news store" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-167" vertex="1" connectable="0">
           <mxGeometry x="0.1527" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -635,7 +635,7 @@
             <mxPoint x="1360" y="4050" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-170" value="create students&amp;nbsp;&lt;br&gt;account" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-169" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-170" value="students account creation" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-169" vertex="1" connectable="0">
           <mxGeometry x="0.213" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -646,7 +646,7 @@
             <mxPoint x="2120" y="4000" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-172" value="store student data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-171" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-172" value="students data store" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-171" vertex="1" connectable="0">
           <mxGeometry x="0.2046" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -663,7 +663,7 @@
             <mxPoint x="2156.81" y="3910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-176" value="store updated data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-174" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-176" value="updated data store" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-174" vertex="1" connectable="0">
           <mxGeometry x="-0.4742" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -674,7 +674,7 @@
             <mxPoint x="1430" y="4260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-178" value="create professor&lt;br&gt;account" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-177" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-178" value="Professors account creation" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=60;" parent="SvNAd-2GLeYypf7AGMXf-177" vertex="1" connectable="0">
           <mxGeometry x="0.1027" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -691,7 +691,7 @@
             <mxPoint x="2240" y="4220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-181" value="store professors data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-180" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-181" value="professor data store" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-180" vertex="1" connectable="0">
           <mxGeometry x="-0.4386" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -702,7 +702,7 @@
             <mxPoint x="2280" y="4290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-183" value="store updated data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-182" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-183" value="updated data store" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-182" vertex="1" connectable="0">
           <mxGeometry x="-0.1027" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -713,7 +713,7 @@
             <mxPoint x="1430" y="4430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-186" value="manage system&lt;br&gt;&amp;nbsp;roles" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-185" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-186" value="system permission&amp;nbsp;&lt;br&gt;management" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=60;" parent="SvNAd-2GLeYypf7AGMXf-185" vertex="1" connectable="0">
           <mxGeometry x="-0.2957" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -721,13 +721,13 @@
         <mxCell id="SvNAd-2GLeYypf7AGMXf-187" value="11.0" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1430" y="4550" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-188" value="add Assistants" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="SvNAd-2GLeYypf7AGMXf-187" vertex="1">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-188" value="add Instructor&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="SvNAd-2GLeYypf7AGMXf-187" vertex="1">
           <mxGeometry y="50" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="SvNAd-2GLeYypf7AGMXf-189" value="12.0" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1800" y="4620" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-190" value="update Assistants data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="SvNAd-2GLeYypf7AGMXf-189" vertex="1">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-190" value="update Instructor data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="SvNAd-2GLeYypf7AGMXf-189" vertex="1">
           <mxGeometry y="50" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="SvNAd-2GLeYypf7AGMXf-191" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.001;entryY=0.347;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.022;exitY=0.274;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="SvNAd-2GLeYypf7AGMXf-141" target="SvNAd-2GLeYypf7AGMXf-122" edge="1">
@@ -736,7 +736,7 @@
             <mxPoint x="1640" y="4410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-192" value="store permissions" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-191" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-192" value="permission store" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-191" vertex="1" connectable="0">
           <mxGeometry x="-0.5169" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -747,7 +747,7 @@
             <mxPoint x="1430" y="4625" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-194" value="create assistants&lt;br&gt;account" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-193" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-194" value="Instructor account &lt;br&gt;creation" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-193" vertex="1" connectable="0">
           <mxGeometry x="0.1608" y="1" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
@@ -764,7 +764,7 @@
             <mxPoint x="1990" y="4650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-197" value="store updated data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-196" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-197" value="updated data store" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-196" vertex="1" connectable="0">
           <mxGeometry x="-0.3182" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -776,7 +776,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvNAd-2GLeYypf7AGMXf-202" value="store assistant data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-201" vertex="1" connectable="0">
+        <mxCell id="SvNAd-2GLeYypf7AGMXf-202" value="Instructor data store" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SvNAd-2GLeYypf7AGMXf-201" vertex="1" connectable="0">
           <mxGeometry x="-0.7518" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
