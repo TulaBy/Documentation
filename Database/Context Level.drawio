@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-06T19:43:13.943Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="5gn91F9xQi_BJpzS-Luo" version="23.1.1" type="device">
+<mxfile host="app.diagrams.net" modified="2024-02-07T21:13:36.374Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="Vv2_0MIlZ_DI3lZ0GG1D" version="23.1.2" type="device">
   <diagram name="Page-1" id="zjT8Od2YyhG-ece8C0a1">
-    <mxGraphModel dx="2524" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1879" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -60,7 +60,7 @@
             <mxPoint x="-88.63999999999993" y="298.63" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Cj-3K72xjGk8HM-gA-CA-25" value="Number of presence" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" parent="Cj-3K72xjGk8HM-gA-CA-24" vertex="1" connectable="0">
+        <mxCell id="Cj-3K72xjGk8HM-gA-CA-25" value="Number of Attendance" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" parent="Cj-3K72xjGk8HM-gA-CA-24" vertex="1" connectable="0">
           <mxGeometry x="-0.3885" y="3" relative="1" as="geometry">
             <mxPoint y="-4" as="offset" />
           </mxGeometry>
@@ -73,7 +73,7 @@
         </mxCell>
         <mxCell id="Cj-3K72xjGk8HM-gA-CA-30" value="Profile management" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" parent="Cj-3K72xjGk8HM-gA-CA-29" vertex="1" connectable="0">
           <mxGeometry x="0.3616" y="-3" relative="1" as="geometry">
-            <mxPoint x="-107" y="-1" as="offset" />
+            <mxPoint x="-107" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Cj-3K72xjGk8HM-gA-CA-42" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.499;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="FIcF-G6ubOX1s6xsN_rO-11" edge="1">
@@ -115,7 +115,7 @@
             <mxPoint x="908.98" y="318.1" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Cj-3K72xjGk8HM-gA-CA-54" value="Number of prsence" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" parent="Cj-3K72xjGk8HM-gA-CA-53" vertex="1" connectable="0">
+        <mxCell id="Cj-3K72xjGk8HM-gA-CA-54" value="Number of Students Attendance" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" parent="Cj-3K72xjGk8HM-gA-CA-53" vertex="1" connectable="0">
           <mxGeometry x="-0.0365" relative="1" as="geometry">
             <mxPoint x="52" as="offset" />
           </mxGeometry>
@@ -225,9 +225,9 @@
             <mxPoint x="646.4499999999998" y="502" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IiB_Z6Eg-lQbgLDoWPz4-21" value="Number of&amp;nbsp;&lt;br&gt;precence" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IiB_Z6Eg-lQbgLDoWPz4-20" vertex="1" connectable="0">
+        <mxCell id="IiB_Z6Eg-lQbgLDoWPz4-21" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Number of Students&amp;nbsp;&lt;br&gt;Attendance&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IiB_Z6Eg-lQbgLDoWPz4-20" vertex="1" connectable="0">
           <mxGeometry x="0.1558" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="5" y="8" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IiB_Z6Eg-lQbgLDoWPz4-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.923;exitY=-0.017;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.006;entryY=0.92;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="I5TRQtB43P004ybhoHq3-4" target="FIcF-G6ubOX1s6xsN_rO-11" edge="1">
@@ -236,7 +236,7 @@
             <mxPoint x="665" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IiB_Z6Eg-lQbgLDoWPz4-23" value="Profile management" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-120;" parent="IiB_Z6Eg-lQbgLDoWPz4-22" vertex="1" connectable="0">
+        <mxCell id="IiB_Z6Eg-lQbgLDoWPz4-23" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Profile management&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-120;" parent="IiB_Z6Eg-lQbgLDoWPz4-22" vertex="1" connectable="0">
           <mxGeometry x="-0.386" y="-2" relative="1" as="geometry">
             <mxPoint x="-15" y="-22" as="offset" />
           </mxGeometry>
